@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="dashboard">
       <aside className="sidebar">
-        <h2>CIDADE INTELIGENTE</h2>
+      <img src="imagens/logo.png" alt="Logo Cidade Inteligente"/>
         <nav>
           <ul>
             <li className="active">Home</li>

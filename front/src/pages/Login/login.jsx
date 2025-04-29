@@ -1,5 +1,5 @@
 import React from 'react';
-import './Login.css';
+import './login.css';
 import { useNavigate } from 'react-router-dom';
 
 function Login() {
@@ -8,6 +8,7 @@ function Login() {
   return (
     <div className="login-container">
       <div className="login-box">
+        <img src="imagens/logo.png" alt="Logo Cidade Inteligente" class="logo" />
         <h2>LOGIN</h2>
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Senha" />
