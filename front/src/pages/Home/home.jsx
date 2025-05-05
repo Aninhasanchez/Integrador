@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './home.css';
 
 function Home() {
@@ -25,7 +26,8 @@ function Home() {
         <header className="topbar">
           <span>Home</span>
           <div>
-            <a href="#">Administrador</a> 👤
+          <Link to="/login" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>Administrador</Link> 👤
+
           </div>
         </header>
 
@@ -61,6 +63,14 @@ function Home() {
           </div>
           <div className="chart">
             <h4>Umidade</h4>
+            <div className="graph-placeholder">📉</div>
+          </div>
+          <div className="chart">
+            <h4>Contador</h4>
+            <div className="graph-placeholder">📊</div>
+          </div>
+          <div className="chart">
+            <h4>Luminosidade</h4>
             <div className="graph-placeholder">📉</div>
           </div>
         </div>
