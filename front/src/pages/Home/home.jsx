@@ -17,19 +17,22 @@ function Home() {
           </ul>
         </nav>
         <div className="bottom-menu">
-          <p>⚙️ Configurações</p>
+        <Link to="/configuracoes" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>⚙️ Configurações</Link> 
           <p>📤 Sair</p>
         </div>
       </aside>
 
       <main className="main-content">
-        <header className="topbar">
+      <div className="topbar">
+        <div className="nav-menu">
           <span>Home</span>
-          <div>
-          <Link to="/login" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>Administrador</Link> 👤
+          <span>Sensores</span>
+          <span>Alertas</span>
+          <span>Relatórios</span>
+        </div>
+        <Link to="/login" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>Login</Link> 👤
+      </div>
 
-          </div>
-        </header>
 
         <div className="map-alerts">
           <div className="map">

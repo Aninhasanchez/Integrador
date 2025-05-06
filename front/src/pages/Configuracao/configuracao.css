@@ -1,0 +1,78 @@
+.config-container {
+    width: 200%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #f2f2f2;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  form fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  form legend {
+    font-weight: bold;
+    padding: 0 5px;
+  }
+  
+  .temp-limits {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .temp-limits div {
+    flex: 1;
+    min-width: 45%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    background-color: #e0e0e0;
+    font-size: 14px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .save-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #999;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .save-button:hover {
+    background-color: #777;
+  }
+  
