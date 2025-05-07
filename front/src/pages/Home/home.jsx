@@ -30,7 +30,7 @@ function Home() {
           <span>Alertas</span>
           <span>Relatórios</span>
         </div>
-        <Link to="/login" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>Login</Link> 👤
+        <Link to="/login" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>Login👤</Link> 
       </div>
 
 
