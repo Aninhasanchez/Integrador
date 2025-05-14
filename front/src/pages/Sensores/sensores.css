@@ -1,0 +1,56 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+
+  
+  .sidebar {
+    width: 200px;
+    background-color: #011D42;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .sidebar img{
+    border-radius: 12px;
+  }
+
+  .sidebar h2 {
+    font-size: 18px;
+  }
+
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -300px;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .sidebar li.active {
+    background-color: #5b6bff;
+  }
+  
+  .bottom-menu p {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
